@@ -1,0 +1,2 @@
+# ClimaPackageTemplateName.jl
+
