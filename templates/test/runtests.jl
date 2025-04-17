@@ -7,5 +7,5 @@ using Aqua
 end
 
 @testset "Aqua" begin
-    @test Aqua.test_all(ClimaPackageTemplateName)
+    Aqua.test_all(ClimaPackageTemplateName)
 end
