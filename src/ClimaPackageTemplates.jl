@@ -107,7 +107,7 @@ function make_package(;
         write_template("docs_index.md", pkgname_no_jl)
         write_template("docs_api.md", pkgname_no_jl)
         write_template("refs.bib", pkgname_no_jl)
-        write_template("refs.bib", pkgname_no_jl)
+        write_template("references.md", pkgname_no_jl)
         contents = template_contents("docs_project.toml", pkgname_no_jl)
         project_uuid = last(split(readlines("Project.toml")[2], "uuid = \""))[1:end-1]
         @show project_uuid
